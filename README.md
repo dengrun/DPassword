@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # DPassword
-=======
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -23,4 +21,7 @@ In the project directory, you can run:
 - 用户授权登录
 - 进入系统主界面-包含创建密码, 创建密码分组, 创建团队, 授权访问, 查看密码等功能
 - 其他用户通过分享链接申请加入团队, 由团队创建人审批
->>>>>>> 'init'
+
+### 存储流程图
+
+![image](https://github.com/dengrun/DPassword/storageflowchart.png)
