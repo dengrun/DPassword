@@ -24,4 +24,4 @@ In the project directory, you can run:
 
 ### 存储流程图
 
-![image](https://github.com/dengrun/DPassword/storageflowchart.png)
+![image](https://github.com/dengrun/DPassword/blob/master/storageflowchart.png)
