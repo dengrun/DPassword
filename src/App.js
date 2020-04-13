@@ -5,6 +5,7 @@ import { configure } from 'radiks';
 import { User, getConfig } from 'radiks';
 import Password from './models/Password.js';
 import moment from 'moment'; 
+import GroupComp from './components/GroupComp';
 
 import {
   UserSession,
@@ -111,7 +112,12 @@ export default class App extends React.Component {
       <div>
         <Header userSession={userSession} />
 
-        
+        <hr></hr>
+
+        <GroupComp></GroupComp>
+
+        <hr></hr>
+
         <span>名称：</span>
         <input type="text" value={this.state.iusername} onChange={e => this.nameChange(e)}></input>
         <span>密码：</span>

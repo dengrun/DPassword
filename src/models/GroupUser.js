@@ -5,8 +5,11 @@ export default class GroupUser extends Model {
 
   static schema = {
     owner: String,            //所有者
-    name: String,             //组名称
-    membername: String,       //组成员
+    groupid: String,          //组ID
+    membername: {             //组成员
+      type: String,
+      decrypted: true
+    },       
     create_time: {            //创建时间
       type: String,
       decrypted: true

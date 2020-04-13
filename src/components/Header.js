@@ -57,7 +57,6 @@ class Header extends Component {
                 <h1 className="text-primary">{ person.name() ? person.name() : 'Nameless Person' }</h1>
                 <button className="btn btn-primary" onClick={this.logout}>Logout</button>
               </div>
-              { person.name() }
             </div>
           }
         </nav>

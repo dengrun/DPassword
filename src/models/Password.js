@@ -7,6 +7,10 @@ export default class Password extends Model {
     owner: String,            //所有者
     title: String,            //密码标题
     password: String,         //密码
+    userGroupId: {            //用户组
+      type: String,
+      decrypted: true,
+    },
     create_time: {            //创建时间
       type: String,
       decrypted: true

@@ -10,6 +10,7 @@
     "bootstrap": "^4.4.1",
     "moment": "^2.24.0",
     "radiks": "^0.2.2-beta.1",
+    "radiks-gavin-test": "^0.2.6",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0",
